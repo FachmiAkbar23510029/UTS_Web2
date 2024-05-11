@@ -1,0 +1,7 @@
+CREATE TABLE buku_telepon (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    Nama VARCHAR(255) NOT NULL,
+    NIM VARCHAR(20) NOT NULL,
+    NoTel VARCHAR(15),
+    Email VARCHAR(255)
+);
